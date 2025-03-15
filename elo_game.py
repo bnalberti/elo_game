@@ -71,7 +71,7 @@ elif input_K == 2:
     K = 16
 else:
     K = input_K
-print(f'K-factor set to {input_K}.')
+print(f'K-factor set to {K}.')
 
 # Setting player elo
 print('Enter your current elo rating. Enter 0 to set the rating to a default of 1000.')
