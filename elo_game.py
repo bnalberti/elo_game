@@ -53,6 +53,7 @@ def run_match(player_rating: int, opponent_rating: int):
         opponent_rating = int(input('What elo is your opponent? (positive int only, 0 for random): '))
         if opponent_rating == 0:
             opponent_rating = random.randrange(500, 2000)
+        print(f"Your opponent's elo is {opponent_rating}.")
         run_match(player_rating, opponent_rating)
     else:
         return 'Program exiting.'
