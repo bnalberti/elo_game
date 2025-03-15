@@ -27,3 +27,5 @@ Many iterations of the elo rating system has been implemented in almost every co
 
 # Instructions
 Run the elo_game.py through command line
+
+No AI was used creating this
